@@ -1,11 +1,15 @@
 // variables and function
+@import 'functions';
 @import 'variables';
 
 // reset and layouts
 @import 'reset';
+@import 'breakpoints';
+@import 'grid';
 // colors
 @import 'colors';
 
 // components(card,navbar)
 
 // utilities(margin,padding)
+@import 'utilities';
