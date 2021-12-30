@@ -28,7 +28,7 @@ img {
 .container-fluid {
   width: 100%;
   margin: 0;
-  padding: 0, 20px;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -82,43 +82,43 @@ img {
 }
 
 .jc-flex-start {
-  justify-content: "flex-start";
+  justify-content: flex-start;
 }
 
 .ai-flex-start {
-  align-items: "flex-start";
+  align-items: flex-start;
 }
 
 .jc-flex-end {
-  justify-content: "flex-end";
+  justify-content: flex-end;
 }
 
 .ai-flex-end {
-  align-items: "flex-end";
+  align-items: flex-end;
 }
 
 .jc-center {
-  justify-content: "center";
+  justify-content: center;
 }
 
 .ai-center {
-  align-items: "center";
+  align-items: center;
 }
 
 .jc-between {
-  justify-content: "space-between";
+  justify-content: space-between;
 }
 
 .ai-between {
-  align-items: "space-between";
+  align-items: space-between;
 }
 
 .jc-around {
-  justify-content: "space-around";
+  justify-content: space-around;
 }
 
 .ai-around {
-  align-items: "space-around";
+  align-items: space-around;
 }
 
 @media (min-width: 0px) {
