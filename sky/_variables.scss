@@ -217,5 +217,29 @@ $utilities: (
       "xl": $font-size-xl,
       "xxl": $font-size-xxl
     )
+  ),
+  "text-align":(
+    "prefix":"text",
+    "values":(
+      "left":left,
+      "center":center,
+      "right":right
+    )
+  ),
+  "text-decoration":(
+    "prefix":"text",
+    "values":(
+      "none":none,
+      "underline":underline,
+      "line-through":line-through
+    )
+  ),
+  "text-transform":(
+    "prefix":"text",
+    "values":(
+      "capitalize":capitalize,
+      "lower":lowercase,
+      "upper":uppercase
+    )
   )
 )!default;
