@@ -241,5 +241,29 @@ $utilities: (
       "lower":lowercase,
       "upper":uppercase
     )
+  ),
+  "float":(
+    "prefix":"float",
+    "values":(
+      "none":none,
+      "left":left,
+      "right":right
+    )
+  ),
+  "overflow":(
+    "prefix":"overflow",
+    "values":(
+      "auto":auto,
+      "scroll":scroll,
+      "hidden":hidden,
+      "visible":visible
+    )
+  ),
+  "visibility":(
+    "prefix":"item",
+    "values":(
+      "visible":visible,
+      "hidden":hidden
+    )
   )
 )!default;
