@@ -2619,7 +2619,7 @@ img {
   border-radius: 40px;
 }
 
-.br-full {
+.br-circle {
   border-radius: 50%;
 }
 
@@ -3036,7 +3036,7 @@ img {
     border-radius: 40px;
   }
 
-  .br-sm-full {
+  .br-sm-circle {
     border-radius: 50%;
   }
 
@@ -3453,7 +3453,7 @@ img {
     border-radius: 40px;
   }
 
-  .br-md-full {
+  .br-md-circle {
     border-radius: 50%;
   }
 
@@ -3870,7 +3870,7 @@ img {
     border-radius: 40px;
   }
 
-  .br-lg-full {
+  .br-lg-circle {
     border-radius: 50%;
   }
 
@@ -4287,7 +4287,7 @@ img {
     border-radius: 40px;
   }
 
-  .br-xl-full {
+  .br-xl-circle {
     border-radius: 50%;
   }
 
@@ -4704,7 +4704,7 @@ img {
     border-radius: 40px;
   }
 
-  .br-xxl-full {
+  .br-xxl-circle {
     border-radius: 50%;
   }
 
@@ -4749,7 +4749,7 @@ img {
   }
 
   .text-xxl-left {
-    text-align: left;
+    text-align: left; 
   }
 
   .text-xxl-center {
