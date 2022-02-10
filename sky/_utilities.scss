@@ -17,6 +17,23 @@
   }
 }
 
+@each $property, $map in $utilitiWithoughBreakpoints {
+  $prefix: map-get($map, "prefix");
+  $values: map-get($map, "values");
+
+  @each $k, $v in $values {
+    @if ($k == "default") {
+      .#{$prefix} {
+        #{$property}: $v;
+      }
+    } @else {
+      .#{$prefix}-#{$k} {
+        #{$property}: $v;
+      }
+    }
+  }
+}
+
 @include sm {
   @each $property, $map in $utilities {
     $prefix: map-get($map, "prefix");

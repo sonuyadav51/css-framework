@@ -2,12 +2,11 @@
 .container-fluid {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -27,15 +26,6 @@
   }
 }
 
-// genetaring justify content and align item classes
-@each $key, $value in $layout_values {
-  .jc-#{$key} {
-    justify-content: $value;
-  }
-  .ai-#{$key} {
-    align-items: $value;
-  }
-}
 @include xs {
   @for $i from 1 through $grid-columns {
     .col-xs-#{$i} {
@@ -51,6 +41,9 @@
   }
 }
 @include sm {
+  .container {
+    max-width: 540px;
+  }
   @for $i from 1 through $grid-columns {
     .col-sm-#{$i} {
       box-sizing: border-box;
@@ -60,6 +53,9 @@
   }
 }
 @include md {
+  .container {
+    max-width: 720px;
+  }
   @for $i from 1 through $grid-columns {
     .col-md-#{$i} {
       box-sizing: border-box;
@@ -69,6 +65,9 @@
   }
 }
 @include lg {
+  .container {
+    max-width: 960px;
+  }
   @for $i from 1 through $grid-columns {
     .col-lg-#{$i} {
       box-sizing: border-box;
@@ -78,6 +77,9 @@
   }
 }
 @include xl {
+  .container {
+    max-width: 1140px;
+  }
   @for $i from 1 through $grid-columns {
     .col-xl-#{$i} {
       box-sizing: border-box;
@@ -87,6 +89,9 @@
   }
 }
 @include xxl {
+  .container {
+    max-width: 1320px;
+  }
   @for $i from 1 through $grid-columns {
     .col-xxl-#{$i} {
       box-sizing: border-box;
