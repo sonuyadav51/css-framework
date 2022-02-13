@@ -1,22 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: $primary;
+a {
+  text-decoration: none;
 }
-a{
-    text-decoration: none;
+ul {
+  padding: 0;
+  list-style-type: none;
 }
-ul{
-    padding: 0;
-    list-style-type: none;
-}
-hr{
-    border: 0;
+hr {
+  border: 0;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }

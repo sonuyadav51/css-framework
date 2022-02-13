@@ -1,16 +1,27 @@
 @use "sass:math";
 // theme colors
 $primary: #326dee !default;
-$succcess: #1ac886 !default;
+$success: #1ac886 !default;
 $error: #d32752 !default;
 $warning: #f6c31c !default;
 $info: #0dcaf0 !default;
 $secondary: #6c757d !default;
-
+$white: #ffffff;
+$black: #000000;
+$dark: #121212;
+$btnColors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $error,
+  "info": $info,
+  "success": $success,
+  "warning": $warning,
+  "dark": $dark,
+);
 // color palette
 $colors: (
   "primary": $primary,
-  "success": $succcess,
+  "success": $success,
   "error": $error,
   "warning": $warning,
   "info": $info,
@@ -23,7 +34,7 @@ $colors: (
   "purple": #9900ff,
   "gray": #808080,
   "black": #000000,
-  "white": #ffffff,
+  "white": $white,
 ) !default;
 
 // spacing
